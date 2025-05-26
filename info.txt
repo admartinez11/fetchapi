@@ -1,0 +1,29 @@
+https://retoolapi.dev/Rz2NPz/expo
+See all available endpoints here (generated with json-server).
+Endpoint URL
+
+HTTP method endpoints
+
+GET
+/Rz2NPz/expo
+
+GET filter
+/Rz2NPz/expo?nombre=value
+
+GET by id
+/Rz2NPz/expo/1
+
+GET paginate
+/Rz2NPz/expo?_page=2&_limit=10
+
+POST
+/Rz2NPz/expo
+
+PUT
+/Rz2NPz/expo/1
+
+PATCH
+/Rz2NPz/expo/1
+
+DELETE
+/Rz2NPz/expo/1
