@@ -1,0 +1,32 @@
+.add-button{
+    position: fixed; /*El btn queda encima del contenido*/
+
+    bottom: 30px; /*Separación del botón con el borde inferior*/
+    
+    right: 35px; /*Separación desde la derecha*/
+
+    background-color: pink; /*Color del fondo*/
+
+    border: none; /*Para q no tenga bordes*/
+
+    border-radius: 50%; /*Para q quede redondo*/
+
+    width: 70px;
+    height: 70px; /*Para q quede simétrico*/
+
+    display: flex; /*Activamos flexbox para centrar el ícono*/
+
+    justify-content: center; /*Alineación horizontal*/
+
+    align-items: center; /*Alineación vertical*/
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /*Sombra del btn*/
+
+    z-index: 1001; /*Para que el btn siempre quede encima de todo*/
+
+    transition: trasform 0.4s; /*Tiempo para el efecto*/
+}
+
+.add-button:hover{
+    transform: scale(1.1); /*El btn crece 1.1 veces su tamaño*/
+}
