@@ -62,6 +62,24 @@
         </article>
     </dialog>
 
+    <!--Modal para editar registros-->
+    <dialog id="modalEditar">
+        <article>
+            <header>
+                <a href="#" class="close" id="btnCerrarEditar"></a>
+                <h3>Editar información de integrante</h3>
+            </header>
+            <form id="frmEditarIntegrantes">
+                <input type="hidden" id="idEditar">
+                <input type="text" id="nombreEditar" placeholder="Nombre" required>
+                <input type="text" id="apellidoEditar" placeholder="Apellido" required>
+                <input type="number" id="edadEditar" placeholder="Edad" required>
+                <input type="email" id="emailEditar" placeholder="Correo electrónico" required>
+                <button type="submit" class="contrast">Guardar</button>
+            </form>
+        </article>
+    </dialog>
+
     <!--Botón flotante para agregar registros-->
     <button class="add-button" id="btnAbrirModal" title="Agregar integrante">
         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart-plus-icon lucide-heart-plus"><path d="M13.5 19.5 12 21l-7-7c-1.5-1.45-3-3.2-3-5.5A5.5 5.5 0 0 1 7.5 3c1.76 0 3 .5 4.5 2 1.5-1.5 2.74-2 4.5-2a5.5 5.5 0 0 1 5.402 6.5"/><path d="M15 15h6"/><path d="M18 12v6"/></svg>
